@@ -23,11 +23,12 @@ class TextSizeAdapter(private val context: Context, private val numbers: Array<I
             textView = convertView as TextView
         } else {
             textView = TextView(context)
-            textView.textSize = 22f
             textView.setPadding(5, 10, 0, 10)
         }
 
+
         return textView
     }
+
 
 }
